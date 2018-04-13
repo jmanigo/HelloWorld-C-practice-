@@ -26,6 +26,7 @@ namespace HelloWorld
 
             Console.WriteLine("Year of car {0} ", myCar.Year);
             Console.WriteLine("Year of car {0} ", otherCar.Year);
+            Car.door();
             Console.ReadLine();
 
           /*  int x = 1234;
@@ -73,7 +74,12 @@ namespace HelloWorld
             return val;
 
         }
-
+        public static void door()
+        {
+            Console.WriteLine();
+            Console.WriteLine("You have 10 doors");
+            
+        }
     }
 
 
